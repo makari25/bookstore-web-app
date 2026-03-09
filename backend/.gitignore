@@ -1,0 +1,26 @@
+# Node.js dependencies
+node_modules/
+
+# Environment variables
+.env
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+
+# Prisma generated files (optional, but usually okay to keep)
+# Prisma generates the client in node_modules/@prisma/client
+
+# IDEs and editors
+.vscode/
+.idea/
+
+# Operating system files
+.DS_Store
+Thumbs.db
+
+# Build output (if any)
+dist/
+build/
+generated/
