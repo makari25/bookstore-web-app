@@ -58,7 +58,7 @@ A full-stack web application for managing a bookstore, including user registrati
 ### 1. Clone the repository
 
 
-git clone https://github.com/MCCREARY25/bookstore-web-app.git
+git clone https://github.com/makari25/bookstore-web-app.git
 cd bookstore-web-app
       2. Install dependencies
           Copy
