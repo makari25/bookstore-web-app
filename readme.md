@@ -69,33 +69,33 @@ cd bookstore-web-app
    
 3. Configure environment variables
 Create a .env file in the root directory with your database and secret configurations:
-          Copy
-          Run
-          DATABASE_URL=postgresql://username:password@localhost:5432/bookstoredb
+```
+DATABASE_URL=postgresql://username:password@localhost:5432/bookstoredb
 JWT_SECRET=your_jwt_secret
-      Replace username, password, and database name as per your PostgreSQL setup.
-4. Initialize the database
+Replace username, password, and database name as per your PostgreSQL setup.
+```
+5. Initialize the database
 Run Prisma migrations to create the database schema:
-          Copy
-          Run
-          npx prisma migrate dev --name init
-      This will create your tables in PostgreSQL.
-5. Generate Prisma Client
-          Copy
-          Run
-          npx prisma generate
-6. Run the server
-          Copy
-          Run
+```
+npx prisma migrate dev --name init
+#This will create your tables in PostgreSQL.
+```
+6. Generate Prisma Client
+```
+npx prisma generate
+```
+7. Run the server
+   ```
           node server.js
+   ```
 The server should now be running on http://localhost:5000.
 
 # Database Setup
 Ensure PostgreSQL is installed and running. Create a database:
-          Copy
-          Run
+```
           CREATE DATABASE bookstoredb;
-      Update your .env file with the correct connection string.
+      #Update your .env file with the correct connection string.
+```
 
 API Endpoints
 
