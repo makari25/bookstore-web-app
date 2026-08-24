@@ -60,11 +60,11 @@ A full-stack web application for managing a bookstore, including user registrati
 
 git clone https://github.com/makari25/bookstore-web-app.git
 cd bookstore-web-app
-      2. Install dependencies
+2. Install dependencies
           Copy
           Run
           npm install
-      3. Configure environment variables
+3. Configure environment variables
 Create a .env file in the root directory with your database and secret configurations:
           Copy
           Run
@@ -81,11 +81,11 @@ Run Prisma migrations to create the database schema:
           Copy
           Run
           npx prisma generate
-      6. Run the server
+6. Run the server
           Copy
           Run
           node server.js
-      The server should now be running on http://localhost:5000.
+The server should now be running on http://localhost:5000.
 
 # Database Setup
 Ensure PostgreSQL is installed and running. Create a database:
