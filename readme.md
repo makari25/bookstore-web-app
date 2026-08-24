@@ -57,13 +57,16 @@ A full-stack web application for managing a bookstore, including user registrati
 
 ### 1. Clone the repository
 
-
+```
 git clone https://github.com/makari25/bookstore-web-app.git
+
 cd bookstore-web-app
+```
 2. Install dependencies
-          Copy
-          Run
-          npm install
+   ```
+   npm install
+   ```
+   
 3. Configure environment variables
 Create a .env file in the root directory with your database and secret configurations:
           Copy
